@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="confesiones.css">
+    <title>Koda confesioens</title>
+</head>
+<body>
+<a href="index.html">Início</a>
+<a href="reglas.html">Reglas</a>
+<a href="problemas.html">¿Algún problema?</a>
+
+
+
+<!--Donde pone confesiones.com (es un ejemplo de nombre) es donde se van a enviar todos las confesiones, supongo que pondremos que se envien al index.html (pagian principal) para que vayan apareciendo en pantalla-->
+    <form action="/formularios" method="post">
+        <ul>
+            <li>
+              <label for="name">Nombre (Opcional):</label>
+              <input type="text" id="name" name="user_name">
+            </li>
+            <li>
+              <label for="mail">Correo electrónico (Tranquilo/a no saldrá en el mensaje):</label>
+              <input type="email" id="mail" name="user_mail">
+            </li>
+            <li>
+              <label for="msg">Confesión:</label>
+              <textarea id="msg" name="user_message">Escribe aqui tu confesión...</textarea>
+              <li class="button">
+                  <button type="submit">Enviar</button>
+            </li>
+                
+               
+            </li>
+           </ul>
+          
+    </form>
+
+    
+</body>
+</html>
