@@ -1,0 +1,64 @@
+* {
+  font-family: 'Sriracha', cursive;
+}
+.field {
+    display:flex;
+    position:realtive;
+    margin:5em auto;
+    width:70%;
+    flex-direction:row;
+  }
+  
+  .field>input[type=text],
+  .field>button {
+    display:block;
+    font:1.2em 'Montserrat Alternates';
+  }
+  
+  .field>input[type=text] {
+    flex:1;
+    padding:0.6em;
+    border:0.2em solid rgb(26, 188, 156);
+  }
+  
+  .field>button {
+    padding:0.6em 0.8em;
+    background-color:rgb(26, 188, 156);
+    color:white;
+    border:none;
+  }
+
+.nav-main {
+  display: flex;
+  font-size: 17px;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 20px 0 ;
+  text-decoration: none;
+  color: red;
+}
+
+ul {
+  list-style: none;
+}
+
+.nav-main ul {
+  display: flex;
+}
+
+.nav-main ul li {
+  padding: 10px;
+}
+
+.nav-main ul.nav-menu {
+  flex: 1;
+  margin-left: 20PX;
+  z-index: 40;
+}
+
+.nav-menu {
+  color: black;
+  z-index: 40;
+  text-decoration: none;
+}
