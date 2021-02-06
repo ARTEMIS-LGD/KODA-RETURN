@@ -1,20 +1,21 @@
 * {
   font-family: 'Sriracha', cursive;
+  padding: 0;
+  margin: 0;
+
 }
+
+
 .field {
     display:flex;
-    position:realtive;
-    margin:5em auto;
-    width:70%;
+    position:relative;
+    margin:auto;
+    width:30%;
     flex-direction:row;
+    margin-right: 130px;
+    
   }
-  
-  .field>input[type=text],
-  .field>button {
-    display:block;
-    font:1.2em 'Montserrat Alternates';
-  }
-  
+
   .field>input[type=text] {
     flex:1;
     padding:0.6em;
@@ -24,7 +25,7 @@
   .field>button {
     padding:0.6em 0.8em;
     background-color:rgb(26, 188, 156);
-    color:white;
+    color:rgb(26, 188, 156);
     border:none;
   }
 
@@ -36,7 +37,9 @@
   height: 60px;
   padding: 20px 0 ;
   text-decoration: none;
-  color: red;
+  color: rgb(26, 188, 156);
+  width: 100%;
+  margin-right: 130px;
 }
 
 ul {
@@ -51,14 +54,74 @@ ul {
   padding: 10px;
 }
 
+.nav-main ul li a:hover {
+  border-bottom: 3px solid rgb(26, 188, 156);
+}
+
 .nav-main ul.nav-menu {
   flex: 1;
-  margin-left: 20PX;
+  margin-left: 130px;
+  margin-right: 130px;
   z-index: 40;
 }
 
 .nav-menu {
-  color: black;
+  color: rgb(26, 188, 156);
   z-index: 40;
   text-decoration: none;
 }
+
+a {
+  color: rgb(26, 188, 156);
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+  border-bottom: 2px solid rgb(26, 188, 156);
+}
+
+
+/* NAVEGACIÓN */
+
+.nav-menu-right {
+  color: rgb(26, 188, 156);
+  z-index: 40;
+}
+
+.nav-main {
+  font-size: 17px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 20px 0;
+  margin-right: 130px;
+}
+
+.nav-brand:hover {
+  transform: scale(1.2);
+}
+
+.nav-brand {
+  left: 12px;
+  top: 27px;
+  position: absolute;
+  transition: transform .5s;
+  max-width: 140px;
+  max-height: 50px;
+  cursor: default;
+}
+
+hr {
+  margin: 0;
+  color: rgb(26, 188, 156);
+  width: 120%;
+}
+
+
